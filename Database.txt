@@ -1,0 +1,11 @@
+CREATE OR REPLACE DATABASE logondb;
+USE logondb;
+create table User(
+    username varchar(255),
+    pass_word varchar(255),
+    fullname varchar(255),
+    email varchar(255),
+    role varchar(255)
+);
+
+INSERT INTO User VALUES ("A", "123", "Nguyen Van A","A@gmail.com","user"), ("B", "123", "Le Thi B","B@yahoo.com","admin");
